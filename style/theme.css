@@ -1,0 +1,16 @@
+.header {
+  background: #fff;
+}
+
+.navigation__link {
+  color: #010101;
+}
+
+.navigation__link:hover {
+  color: #c74817;
+}
+
+.navigation__link-cart--number {
+  background: #c74817;
+  color: #fff;
+}

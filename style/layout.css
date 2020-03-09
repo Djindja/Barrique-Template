@@ -1,0 +1,79 @@
+body {
+  font-family: 'Catamaran', sans-serif;
+}
+
+.wrapper-wide {
+  max-width: 1420px;
+  width: 100%;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  max-width: 1320px;
+  width: 100%;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.heading {
+  min-height: 500px;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  padding: 30px 50px;
+  position: absolute;
+  max-width: 1400px;
+  width: 100%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+ul.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.navigation__item {
+  margin: 0 10px
+}
+
+.navigation__link {
+  padding: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+.navigation__link-cart {
+  position: relative;
+}
+
+.navigation__link-cart--number {
+  position: absolute;
+  content: '';
+  right: 5px;
+  top: 5px;
+  width: 12px;
+  height: 12px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  letter-spacing: 0;
+}
