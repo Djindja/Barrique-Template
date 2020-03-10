@@ -14,3 +14,11 @@
   background: #c74817;
   color: #fff;
 }
+
+.button {
+  font-family: 'Catamaran', sans-serif;
+  font-weight: bold;
+  background: #c74817;
+  color: #fff;
+  letter-spacing: 2px;
+}
