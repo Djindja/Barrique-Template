@@ -16,10 +16,27 @@ body {
   margin: 0 auto;
 }
 
+.heading-home {
+  max-height: 1060px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading-home__title {
+  position: absolute;
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .heading {
-  min-height: 500px;
+  height: 500px;
   background-size: cover;
-  background-position: center center;
+  background-position: center;
+  background-repeat: no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -81,7 +98,6 @@ ul.navigation {
 .footer {
   min-height: 600px;
   padding: 150px 0 30px;
-  background-image: url('../images/footer-bg.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
