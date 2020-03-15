@@ -3,6 +3,18 @@ font-family: 'Catamaran', sans-serif;
 font-family: 'Cormorant Garamond', serif;
 */
 
+p {
+  color: #656464;
+}
+
+.text--orange {
+  color: #c74817;
+}
+
+.text-darker {
+  color: #2e2e2e;
+}
+
 .header {
   background-color: #fff;
 }
@@ -85,6 +97,7 @@ font-family: 'Cormorant Garamond', serif;
   font-weight: 500;
   color: #fff;
   text-transform: uppercase;
+  letter-spacing: 4px;
 }
 
 .title--dark {
@@ -106,17 +119,127 @@ font-family: 'Cormorant Garamond', serif;
   line-height: 55px;
 }
 
-.heading-subtitle {
+.subtitle {
   font-family: 'Catamaran', sans-serif;
   font-weight: bold;
   font-size: 12px;
   font-weight: 40px;
   letter-spacing: 2px;
-  text-align: center;
   color: #fff;
   text-transform: uppercase;
 }
 
-.heading-subtitle--dark {
+.subtitle--dark {
   color: #000;
+}
+
+.subtitle--orange {
+  color: #c74817;
+}
+
+.text-highlight {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+  color: #2e2e2e;
+}
+
+.product__hover {
+  background: rgba(255,255,255, .8);
+}
+
+.product--tag {
+  background-color: #c74817;
+  color: #fff;
+  font-weight: bold;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  position: absolute;
+}
+
+.product--tag__new {
+  left: 15px;
+  top: 15px;
+}
+
+.product--tag__sale {
+  right: 15px;
+  top: 15px;
+}
+
+.product__info-origin {
+  font-family: 'Catamaran', sans-serif;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #c74817;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.product__info-name {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: #262524;
+}
+
+.product__info-price {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 600;
+  color: #262524;
+  font-size: 18px;
+}
+
+.visit__left {
+  background-image: url('../images/visit-us-bg.jpg');
+}
+
+.visit__right {
+  background-color: #242323;
+  color: #fff;
+}
+
+.visit__contact {
+  color: #fff;
+}
+
+.visit__social {
+  font-size: 20px;
+  color: #fff;
+  padding: 0 5px;
+  margin: 0 15px;
+}
+
+.visit__social:hover {
+  color: #c74817;
+}
+
+.working-hours__dayname {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #2e2e2e;
+  letter-spacing: 2px;
+}
+
+.working-hours__time {
+  font-family: 'Catamaran', sans-serif;
+  font-style: italic;
+  color: #2e2e2e;
+  font-size: 20px;
+  min-width: 105px;
+  text-align: right;
+}
+
+.working-hours__time.closed {
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-weight: 600;
+  color: #c74817;
+  font-size: 20px;
+  text-transform: capitalize;
+  min-width: 50px;
 }

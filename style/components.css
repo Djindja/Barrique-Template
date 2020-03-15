@@ -42,3 +42,7 @@
   align-items: center;
   justify-content: center;
 }
+
+.carousel {
+  width: 100%;
+}

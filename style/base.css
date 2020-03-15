@@ -170,10 +170,6 @@ textarea {
   margin: 0; /* 2 */
 }
 
-button {
-  border: none;
-  outline: none;
-}
 
 /**
  * Show the overflow in IE.
@@ -412,9 +408,17 @@ table {
 	border-spacing: 0;
 }
 
+button {
+  border: none;
+  outline: none;
+}
 
 * {
   box-sizing: border-box;
+}
+
+body {
+  background-color: #faf9f5;
 }
 
 a:hover {
@@ -424,5 +428,6 @@ a:hover {
 p {
   font-family: 'Catamaran', sans-serif;
   font-size: 17px;
+  line-height: 30px;
   font-weight: 400;
 }
