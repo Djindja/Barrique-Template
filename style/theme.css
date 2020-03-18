@@ -274,3 +274,40 @@ p {
   text-transform: capitalize;
   min-width: 50px;
 }
+
+
+.testimonials {
+  background-image: url('../images/testimonials-bg.png');
+}
+
+.testimonials__author {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 20px;
+  line-height: 40px;
+  color: #fff;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.testimonials .carousel-indicators {
+  bottom: -80px;
+}
+
+.testimonials .carousel-indicators li {
+  width: 13px;
+  height: 13px;
+  border-radius: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
+  opacity: 1;
+}
+
+.testimonials .carousel-indicators .active {
+  background-color: #c74817;
+}
+
+.our-team__socials-link {
+   color: #c74817;
+   font-size: 20px;
+   margin-right: 20px;
+ }
