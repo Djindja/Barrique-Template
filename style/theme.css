@@ -7,6 +7,15 @@ p {
   color: #656464;
 }
 
+.text-underline {
+  text-decoration: underline;
+  color: #656464;
+}
+
+.text-linetrough {
+  text-decoration: line-through;
+}
+
 .text--orange {
   color: #c74817;
 }
@@ -41,7 +50,7 @@ p {
   font-weight: bold;
   background-color: #c74817;
   color: #fff;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
 }
 
 .button:hover {
@@ -117,12 +126,13 @@ p {
 .title--section {
   font-size: 45px;
   line-height: 55px;
+  letter-spacing: 3px;
 }
 
 .title--card {
   font-size: 24px;
   line-height: 30px;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
   font-weight: 600;
 }
 
@@ -192,11 +202,25 @@ p {
   color: #262524;
 }
 
+.product__info-price-holder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .product__info-price {
   font-family: 'Cormorant Garamond', serif;
   font-weight: 600;
   color: #262524;
   font-size: 18px;
+}
+
+.product__info-price--sale {
+  color: #c74817;
+}
+
+.visit--subtitle {
+  letter-spacing: 4px;
 }
 
 .visit__left {

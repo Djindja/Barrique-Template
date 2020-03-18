@@ -64,7 +64,7 @@
 
     <div class="about">
       <div class="about__home wrapper">
-        <div class="row">
+        <div class="row mx-0">
           <div class="col-lg-8">
             <h5 class="subtitle subtitle--orange mb-2">our story</h5>
             <h1 class="title title--main title--dark about__title mb-5">Sometimes wine is just necessary.</h1>
@@ -107,23 +107,27 @@
         <h5 class="subtitle subtitle--orange text-center">
           Reds & whites
         </h5>
-        <h1 class="title title--main title--dark text-center mt-3 mb-5">A wine with its <br /> own style.</h1>
+        <h1 class="title title--section title--dark text-center mt-3 mb-5">A wine with its <br /> own style.</h1>
 
-          <div class="row shop__products">
+          <div class="row shop__products mx-0">
             <div class="product-holder col-md-6 col-lg-3">
               <div class="product">
                 <div class="product__box">
-                  <div class="product--tag product--tag__new">new</div>
-                  <div class="product__hover">
-                    <button class="button button--default product--button-add">add to cart</button>
-                  </div>
-                  <img class="product__image" src="images/product-bottle.png" alt="product bottle">
+                  <a href="#">
+                    <div class="product--tag product--tag__new">new</div>
+                    <div class="product__hover">
+                      <button class="button button--default product--button-add">add to cart</button>
+                    </div>
+                    <img class="product__image" src="images/product-bottle.png" alt="product bottle">
+                  </a>
                 </div>
 
                 <div class="product__info text-center">
                   <p class="product__info-origin">chile</p>
                   <p class="product__info-name">MOSCATO CAVIT</p>
-                  <p class="product__info-price">$65</p>
+                  <div class="product__info-price-holder">
+                    <p class="product__info-price">$65</p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -131,16 +135,20 @@
             <div class="product-holder col-md-6 col-lg-3">
               <div class="product">
                 <div class="product__box">
-                  <div class="product__hover">
-                    <button class="button button--default product--button-add">add to cart</button>
-                  </div>
-                  <img class="product__image" src="images/product-bottle.png" alt="product bottle">
+                  <a href="#">
+                    <div class="product__hover">
+                      <button class="button button--default product--button-add">add to cart</button>
+                    </div>
+                    <img class="product__image" src="images/product-bottle.png" alt="product bottle">
+                  </a>
                 </div>
 
                 <div class="product__info text-center">
-                  <p class="product__info-origin">chile</p>
-                  <p class="product__info-name">MOSCATO CAVIT</p>
-                  <p class="product__info-price">$65</p>
+                  <p class="product__info-origin">green Valley</p>
+                  <p class="product__info-name">RIESLING MICHELLE</p>
+                  <div class="product__info-price-holder">
+                    <p class="product__info-price">$65</p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -148,17 +156,22 @@
             <div class="product-holder col-md-6 col-lg-3">
               <div class="product">
                 <div class="product__box">
-                  <div class="product--tag product--tag__sale">sale</div>
-                  <div class="product__hover">
-                    <button class="button button--default product--button-add">add to cart</button>
-                  </div>
-                  <img class="product__image" src="images/product-bottle.png" alt="product bottle">
+                  <a href="#">
+                    <div class="product--tag product--tag__sale">sale</div>
+                    <div class="product__hover">
+                      <button class="button button--default product--button-add">add to cart</button>
+                    </div>
+                    <img class="product__image" src="images/product-bottle.png" alt="product bottle">
+                  </a>
                 </div>
 
                 <div class="product__info text-center">
-                  <p class="product__info-origin">chile</p>
-                  <p class="product__info-name">MOSCATO CAVIT</p>
-                  <p class="product__info-price">$65</p>
+                  <p class="product__info-origin">france</p>
+                  <p class="product__info-name">CHARDONNAY</p>
+                  <div class="product__info-price-holder">
+                    <p class="product__info-price text-linetrough mr-2">$65</p>
+                    <p class="product__info-price product__info-price--sale">$30</p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -166,16 +179,20 @@
             <div class="product-holder col-md-6 col-lg-3">
               <div class="product">
                 <div class="product__box">
-                  <div class="product__hover">
-                    <button class="button button--default product--button-add">add to cart</button>
-                  </div>
-                  <img class="product__image" src="images/product-bottle.png" alt="product bottle">
+                  <a href="#">
+                    <div class="product__hover">
+                      <button class="button button--default product--button-add">add to cart</button>
+                    </div>
+                    <img class="product__image" src="images/product-bottle.png" alt="product bottle">
+                  </a>
                 </div>
 
                 <div class="product__info text-center">
-                  <p class="product__info-origin">chile</p>
-                  <p class="product__info-name">MOSCATO CAVIT</p>
-                  <p class="product__info-price">$65</p>
+                  <p class="product__info-origin">italy</p>
+                  <p class="product__info-name">MOSCATO D’Asti</p>
+                  <div class="product__info-price-holder">
+                    <p class="product__info-price">$65</p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -184,11 +201,11 @@
     </div>
 
     <div class="visit">
-      <div class="visit__wrap row">
+      <div class="visit__wrap row mx-0">
         <div class="visit__left col-sm-12 col-lg-6"></div>
         <div class="visit__right col-sm-12 col-lg-6">
           <div class="visit__content">
-            <h5 class="subtitle subtitle--orange">visit us</h5>
+            <h5 class="subtitle subtitle--orange visit--subtitle">visit us</h5>
             <h1 class="title title--section my-4">Barrique Winery & Vineyard</h1>
             <p class="visit__contact">41 Green Ave 10013 New York, 504-349501, 910-320211,</p>
             <p class="visit__contact">reservations@barrique.com, office@barrique.com</p>
@@ -205,12 +222,12 @@
 
     <div class="working-hours">
       <div class="wrapper">
-        <div class="row">
+        <div class="row mx-0">
           <div class="col-lg-6 my-3">
             <h5 class="subtitle subtitle--orange mb-3">wine tasting</h5>
-            <h1 class="title title--section title--dark mb-5">Working Hours</h1>
+            <h1 class="title title--section title--dark mb-4">Working Hours</h1>
             <p class="pr-5 mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+              dolore magna aliqua. <a href="#" class="text-underline">Ut enim ad minim veniam, quis nostrud exercitation ullamco</a> laboris nisi
               ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate</p>
             <button class="button button--default">schedule</button>
           </div>
@@ -263,9 +280,9 @@
         <h5 class="subtitle subtitle--orange text-center">
           from our blog
         </h5>
-        <h1 class="title title--main title--dark text-center mt-3 mb-5">Latest news  <br /> & Events</h1>
+        <h1 class="title title--section title--dark text-center mt-3 mb-5">Latest news  <br /> & Events</h1>
 
-        <div class="row">
+        <div class="row mx-0">
           <div class="col-lg-4 d-flex justify-content-center">
             <div class="latest-news__card">
               <div class="latest-news__image-holder">
@@ -318,6 +335,71 @@
     <div class="pour-wine">
       <div class="pour-wine__image-holder">
         <img class="pour-wine__image" src="images/pour-wine.png" alt="pour wine">
+      </div>
+    </div>
+
+    <div class="locations">
+      <div class="wrapper">
+        <div class="row mx-0">
+          <div class="col-md-6 mb-3">
+            <div class="locations__map">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d90634.3748763455!2d20.489830400000002!3d44.7741952!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2srs!4v1584523314934!5m2!1sen!2srs" width="630" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+          </div>
+
+          <div class="col-md-6 pl-4 pl-md-5 pt-3">
+            <h5 class="subtitle subtitle--orange mb-3">wine tasting</h5>
+            <h1 class="title title--section title--dark mb-4">our locations</h1>
+            <p class="pr-5 mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. <a href="#" class="text-underline">Ut enim ad minim veniam, quis nostrud exercitation ullamco</a> laboris nisi
+              ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate</p>
+            <button class="button button--default">find us</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="follow">
+      <div class="wrapper">
+        <h5 class="subtitle subtitle--orange text-center">
+          get in touch
+        </h5>
+        <h1 class="title title--section title--dark text-center mt-3 mb-5">follow us on<br /> instagram</h1>
+
+        <div class="row mx-0">
+          <div class="col-md-6 col-lg-3 d-flex justify-content-center">
+            <div class="follow__image-holder">
+              <a class="follow__image-link" href="#">
+                <span class="follow__hover"><i class="fab fa-instagram"></i></span>
+                <img class="follow__image" src="images/instagram01.png" alt="instagram photo">
+              </a>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex justify-content-center">
+            <div class="follow__image-holder">
+              <a class="follow__image-link" href="#">
+                <span class="follow__hover"><i class="fab fa-instagram"></i></span>
+                <img class="follow__image" src="images/instagram02.png" alt="instagram photo">
+              </a>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex justify-content-center">
+            <div class="follow__image-holder">
+              <a class="follow__image-link" href="#">
+                <span class="follow__hover"><i class="fab fa-instagram"></i></span>
+                <img class="follow__image" src="images/instagram03.png" alt="instagram photo">
+              </a>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex justify-content-center">
+            <div class="follow__image-holder">
+              <a class="follow__image-link" href="#">
+                <span class="follow__hover"><i class="fab fa-instagram"></i></span>
+                <img class="follow__image" src="images/instagram04.png" alt="instagram photo">
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
