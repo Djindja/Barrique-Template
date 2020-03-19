@@ -432,3 +432,23 @@ p {
   line-height: 30px;
   font-weight: 400;
 }
+
+input, textarea {
+  background: #fff;
+  border: 1px solid #eeeae3;
+  padding: 15px;
+  width: 100%;
+}
+
+input:focus, textarea:focus {
+  border: 1px solid #c74817;
+}
+
+input {
+  height: 55px;
+}
+
+textarea {
+  resize: none;
+  height: 200px;
+}
