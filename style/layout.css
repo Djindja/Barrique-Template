@@ -81,6 +81,10 @@ ul.navigation {
   position: relative;
 }
 
+.navigation__link.navigation__link-cart {
+  font-size: 14px;
+}
+
 .navigation__link-cart-number {
   position: absolute;
   content: '';
@@ -609,4 +613,28 @@ ul.navigation {
   max-width: 850px;
   width: 100%;
   padding: 30px 10px;
+}
+
+
+
+/* SHOP HOME PAGE */
+
+.header.shop--header {
+  max-width: 100%;
+  padding: 0;
+}
+
+.shop-navigation {
+  max-width: 1420px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 30px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.shop--header .navigation__link {
+  color: #fff;
 }

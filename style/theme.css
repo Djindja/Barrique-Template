@@ -407,3 +407,7 @@ li.blog__categories-list-item > p {
   color: #c74817;
   text-transform: uppercase;
 }
+
+.shop--header {
+  background-color: #242323;
+}
