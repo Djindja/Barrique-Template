@@ -205,6 +205,12 @@ p {
   top: 15px;
 }
 
+.product--tag__sold {
+  right: 15px;
+  top: 15px;
+  background: #242323;
+}
+
 .product__info-origin {
   font-family: 'Catamaran', sans-serif;
   font-weight: bold;
@@ -410,4 +416,29 @@ li.blog__categories-list-item > p {
 
 .shop--header {
   background-color: #242323;
+}
+
+.shop-heading {
+  background-image: url('../images/shop-heading-bg.png');
+}
+
+.shop-small__title {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 33px;
+  line-height: 66px;
+  letter-spacing: 2px;
+  color: #262524;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.shop-small__item-price {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 18px;
+  color: #262524;
+  font-weight: 600;
+}
+
+.shop-small .product__info-name {
+  text-transform: uppercase;
 }
