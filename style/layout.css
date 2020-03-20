@@ -34,7 +34,7 @@ body {
 
 .heading {
   height: 500px;
-  padding-top: 100px;
+  padding-top: 90px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -583,4 +583,30 @@ ul.navigation {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+
+
+/* CONTACT PAGE */
+
+.contact {
+  padding: 90px 0;
+}
+
+.contact .locations {
+  padding-bottom: 0px;
+}
+
+.contact-form {
+  padding-top: 90px;
+  background-image: url('../images/bg-stain.png'), url('../images/bg-stain.png');
+  background-repeat: no-repeat, no-repeat;
+  background-position: -15% 130%, 105% 0%;
+}
+
+.contact-form__wrapper {
+  margin: 0 auto;
+  max-width: 850px;
+  width: 100%;
+  padding: 30px 10px;
 }
