@@ -767,3 +767,23 @@ ul.navigation {
   flex-direction: column;
   justify-content: center;
 }
+
+
+
+/* SHOP CART PAGE */
+
+.shop-cart {
+  padding: 100px 0;
+}
+
+.shop-cart__table {
+  margin-bottom: 70px;
+}
+
+.shop-cart__total {
+  padding: 10px 0;
+  border-bottom: 1px solid #eeeae3;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
