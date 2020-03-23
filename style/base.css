@@ -433,7 +433,13 @@ p {
   font-weight: 400;
 }
 
-input, textarea {
+select, option {
+  text-transform: capitalize;
+}
+
+input,
+textarea,
+select {
   background: #fff;
   border: 1px solid #eeeae3;
   padding: 15px;
@@ -441,7 +447,7 @@ input, textarea {
 }
 
 input:focus, textarea:focus {
-  border: 1px solid #c74817;
+  border: 1px solid #f46150;
 }
 
 input {

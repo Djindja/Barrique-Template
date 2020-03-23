@@ -781,9 +781,62 @@ ul.navigation {
 }
 
 .shop-cart__total {
-  padding: 10px 0;
+  padding: 15px 0;
   border-bottom: 1px solid #eeeae3;
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+
+
+/* CHECKOUT PAGE */
+
+.checkout {
+  padding: 70px 0 120px;
+}
+
+.checkout-notification {
+  min-height: 60px;
+  padding: 13px 15px 13px 25px;
+  background-color: #f5e7de;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.checkout-form .form-group {
+  margin-bottom: 30px;
+}
+
+.checkout-form__wrapper {
+  margin-bottom: 70px;
+}
+
+.shop-cart__total-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.shop-cart__total-item-price {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #262524;
+}
+
+ul.shop-cart__total-items-list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+ul.shop-cart__total-items-list li {
+  margin-bottom: 15px;
+}
+
+ul.shop-cart__total-items-list li:last-child {
+  margin-bottom: 0;
 }

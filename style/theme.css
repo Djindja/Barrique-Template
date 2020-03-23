@@ -540,3 +540,32 @@ li.blog__categories-list-item > p {
   font-size: 24px;
   color: #262524;
 }
+
+.checkout-form__title {
+  font-size: 33px;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 600;
+  line-height: 50px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.input-label {
+  color: #262524;
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 30px;
+  margin-bottom: 5px;
+  text-transform: capitalize;
+}
+
+.label-star {
+  color: #f46150;
+}
+
+.checkout-policy {
+  font-size: 13px;
+  padding: 20px 0;
+  color: #a9a9a9;
+}
