@@ -840,3 +840,11 @@ ul.shop-cart__total-items-list li {
 ul.shop-cart__total-items-list li:last-child {
   margin-bottom: 0;
 }
+
+
+
+/* SHOP LIST PAGE */
+
+.shop-list {
+  padding: 100px 0;
+}

@@ -437,6 +437,16 @@ li.blog__categories-list-item > p {
   font-size: 18px;
   color: #262524;
   font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+
+.shop-small__item-price-old {
+  text-decoration: line-through;
+}
+
+.shop-small__item-price-discount {
+  color: #c74817;
 }
 
 .shop-small .product__info-name {
