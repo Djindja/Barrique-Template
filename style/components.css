@@ -48,6 +48,12 @@
   font-size: 12px;
 }
 
+.button--filter {
+  width: 80px;
+  height: 30px;
+  font-size: 12px;
+}
+
 .tag {
   min-width: 50px;
   min-height: 20px;

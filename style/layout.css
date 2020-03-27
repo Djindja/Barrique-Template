@@ -848,3 +848,14 @@ ul.shop-cart__total-items-list li:last-child {
 .shop-list {
   padding: 100px 0;
 }
+
+.shop-list__sort-holder {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.shop-list__sort-select {
+  height: 55px;
+  width: 240px;
+}
