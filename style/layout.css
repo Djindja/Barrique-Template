@@ -859,3 +859,37 @@ ul.shop-cart__total-items-list li:last-child {
   height: 55px;
   width: 240px;
 }
+
+
+
+/* SHOP SINGLE PAGE */
+
+.shop-single {
+  padding: 50px 0 70px;
+}
+
+.shop-single__bottle-box {
+  max-width: 410px;
+  width: 100%;
+  height: 600px;
+  background-color: #fdfcfa;
+  border: 2px dashed #eeeae3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.shop-single__bottle-box .product--tag {
+  font-size: 12px;
+  cursor: default;
+}
+
+.shop-single__review {
+  display: flex;
+  align-items: center;
+}
+
+.shop-single__quantity-holder {
+  display: flex;
+}

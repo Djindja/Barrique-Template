@@ -522,6 +522,12 @@ li.blog__categories-list-item > p {
   font-size: 1.5em;
 }
 
+/* shop-single page*/
+.shop-single__quantity.cart-table__quantity {
+  max-width: 350px;
+  height: 60px;
+}
+
 .cart-table__button--dark {
   background: #262524;
 }
@@ -579,3 +585,27 @@ li.blog__categories-list-item > p {
   padding: 20px 0;
   color: #a9a9a9;
 }
+
+.shop-single__subtitle {
+  font-size: 16px;
+}
+
+.shop-single__price {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 600;
+  font-size: 33px;
+  line-height: 50px;
+  color: #262524;
+}
+
+.shop-single .title {
+  font-weight: 600;
+}
+
+.shop-single__review-star {
+  font-size: 16px;
+  color: #c74817;
+  cursor: pointer;
+}
+
+/* TABS */
