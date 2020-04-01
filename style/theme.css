@@ -226,6 +226,7 @@ p {
   font-size: 20px;
   letter-spacing: 2px;
   color: #262524;
+  text-transform: uppercase;
 }
 
 .product__info-price-holder {
@@ -608,4 +609,42 @@ li.blog__categories-list-item > p {
   cursor: pointer;
 }
 
+
 /* TABS */
+
+ul.tabs-box__tabs {
+  border-bottom: 2px solid #eeeae3;
+  display: flex;
+  margin-bottom: 30px;
+}
+
+li.tabs__tab {
+  padding-bottom: 20px;
+  margin-right: 50px;
+  cursor: pointer;
+  user-select: none;
+}
+
+li.tabs__tab:last-child {
+  margin-right: 0;
+}
+
+li.tabs__tab.active {
+  border-bottom: 2px solid #c74817;
+}
+
+.tab__txt {
+  font-size: 12px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #000;
+  font-weight: bold;
+}
+
+li.tabs__tab.active .tab__txt {
+  color: #c74817;
+}
+
+.tabs-box {
+  padding-right: 70px;
+}
