@@ -8,7 +8,9 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 
-
+* {
+  word-break: break-word;
+}
 
 html {
   line-height: 1.15; /* 1 */
