@@ -473,8 +473,6 @@ input[type=number] {
   -moz-appearance: textfield;
 }
 
-/* SLIDER FLITER */
-
-input[type=range] {
-  /* border: none; */
+input[type="range"]:focus {
+  border: none;
 }
