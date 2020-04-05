@@ -613,7 +613,7 @@ li.blog__categories-list-item > p {
 /* TABS */
 
 ul.tabs-box__tabs {
-  border-bottom: 2px solid #c74817ae3;
+  border-bottom: 2px solid #eeeae3;
   display: flex;
   margin-bottom: 30px;
 }
