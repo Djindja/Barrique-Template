@@ -559,6 +559,13 @@ li.blog__categories-list-item > p {
   color: #262524;
 }
 
+.shop-list__sort-select {
+  height: 55px;
+  width: 240px;
+  background: #c74817;
+  color: #fff;
+}
+
 .checkout-form__title {
   font-size: 33px;
   font-family: 'Cormorant Garamond', serif;
