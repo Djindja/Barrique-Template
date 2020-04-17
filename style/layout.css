@@ -44,7 +44,7 @@ body {
 }
 
 .header {
-  padding: 30px 50px;
+  padding: 25px 50px;
   position: absolute;
   max-width: 1400px;
   width: 100%;
@@ -56,6 +56,38 @@ body {
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
+}
+
+@media screen and (max-width: 769px) {
+  .header {
+    padding: 20px;
+  }
+}
+
+.navbar {
+  padding: 0;
+}
+
+.header-logo__link {
+  display: flex;
+  align-items: center;
+}
+
+.header__nav {
+  width: 100%;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+  padding-top: 10px;
+}
+
+button.navbar-toggler {
+  outline: none;
+}
+
+.navbar-toggler-icon {
+  height: auto;
 }
 
 ul.navigation {
@@ -627,14 +659,12 @@ ul.navigation {
 
 .header.shop--header {
   max-width: 100%;
-  padding: 0;
 }
 
 .shop-navigation {
   max-width: 1420px;
   width: 100%;
   margin: 0 auto;
-  padding: 30px 50px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -642,6 +672,10 @@ ul.navigation {
 }
 
 .shop--header .navigation__link {
+  color: #fff;
+}
+
+.shop--header .fas.fa-bars {
   color: #fff;
 }
 

@@ -2,6 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
     <link rel="stylesheet" href="style/all.min.css">
     <link rel="stylesheet" href="style/fontawesome.min.css">
@@ -20,25 +21,32 @@
   <body>
     <div class="wrapper-wide">
       <div class="header">
-        <div class="header-logo">
-          <a href="#">
-            <img src="images/header-logo.png" alt="logo">
-          </a>
-        </div>
-        <nav>
-          <ul class="navigation">
-            <li class="navigation__item"><a class="navigation__link" href="index.html">home</a></li>
-            <li class="navigation__item"><a class="navigation__link" href="about.html">about</a></li>
-            <li class="navigation__item"><a class="navigation__link" href="blog.html">blog</a></li>
-            <li class="navigation__item"><a class="navigation__link" href="shop.html">shop</a></li>
-            <li class="navigation__item"><a class="navigation__link" href="contact.html">contact</a></li>
-            <li>
-              <a class="navigation__link navigation__link-cart" href="#">
-                <i class="fas fa-shopping-basket"></i>
-                <span class="navigation__link-cart-number">2</span>
-              </a>
-            </li>
-          </ul>
+        <nav class="navbar navbar-expand-lg header__nav">
+          <div class="header-logo">
+            <a class="header-logo__link" href="#">
+              <img src="images/header-logo.png" alt="logo">
+            </a>
+          </div>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav navigation">
+              <li class="nav-item navigation__item my-1"><a class="nav-link navigation__link" href="index.html">home</a></li>
+              <li class="nav-item navigation__item my-1"><a class="nav-link navigation__link" href="about.html">about</a></li>
+              <li class="nav-item navigation__item my-1"><a class="nav-link navigation__link" href="blog.html">blog</a></li>
+              <li class="nav-item navigation__item my-1"><a class="nav-link navigation__link" href="shop.html">shop</a></li>
+              <li class="nav-item navigation__item my-1"><a class="nav-link navigation__link" href="contact.html">contact</a></li>
+              <li class="my-1">
+                <a class="navigation__link navigation__link-cart" href="#">
+                  <i class="fas fa-shopping-basket"></i>
+                  <span class="navigation__link-cart-number">2</span>
+                </a>
+              </li>
+            </ul>
+          </div>
         </nav>
       </div>
     </div>

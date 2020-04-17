@@ -281,6 +281,7 @@ p {
   font-weight: 600;
   color: #2e2e2e;
   letter-spacing: 2px;
+  word-break: normal;
 }
 
 .working-hours__time {
