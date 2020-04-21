@@ -59,8 +59,8 @@
 
     <div class="blog">
       <div class="wrapper">
-        <div class="row mx-0">
-          <div class="col-md-9 pl-0">
+        <div class="row mx-0 flex-column-reverse flex-lg-row">
+          <div class="col-lg-9 pl-lg-0">
             <div class="blog-post">
               <div class="blog-post__image-holder">
                 <img class="blog-post__image" src="images/blog-post01.png" alt="blog post image">
@@ -174,8 +174,8 @@
             </div>
           </div>
 
-          <div class="col-md-3 pr-0">
-            <div class="mb-5">
+          <div class="col-lg-3 pr-lg-0 pb-4 pb-lg-0">
+            <div class="mb-3 mb-lg-5">
               <h3 class="title title--card title--dark mb-1">Categories</h3>
               <ul class="blog__categories-list">
                 <li class="blog__categories-list-item"><p>White Wine</p></li>
@@ -185,59 +185,61 @@
               </ul>
             </div>
 
-            <div class="mb-5">
+            <div class="mb-3 mb-lg-5">
               <h3 class="title title--card title--dark mb-4">Recent posts</h3>
-              <div class="blog-small-post">
-                <a href="#">
-                  <div class="d-flex align-items-center">
-                    <div class="blog-small-post__image-holder">
-                      <img class="blog-small-post__image" src="images/small-post01.png" alt="small opst image">
+              <div class="row">
+                <div class="blog-small-post col-sm-6 col-lg-12">
+                  <a href="#">
+                    <div class="d-flex align-items-center">
+                      <div class="blog-small-post__image-holder">
+                        <img class="blog-small-post__image" src="images/small-post01.png" alt="small opst image">
+                      </div>
+                      <div>
+                        <h5 class="subtitle subtitle--orange mb-1">June 25, 2020</h5>
+                        <p class="blog-small-post__title">Top Rated Wines</p>
+                      </div>
                     </div>
-                    <div>
-                      <h5 class="subtitle subtitle--orange mb-1">June 25, 2020</h5>
-                      <p class="blog-small-post__title">Top Rated Wines</p>
+                  </a>
+                </div>
+                <div class="blog-small-post col-sm-6 col-lg-12">
+                  <a href="#">
+                    <div class="d-flex align-items-center">
+                      <div class="blog-small-post__image-holder">
+                        <img class="blog-small-post__image" src="images/small-post02.png" alt="small opst image">
+                      </div>
+                      <div>
+                        <h5 class="subtitle subtitle--orange mb-1">June 25, 2020</h5>
+                        <p class="blog-small-post__title">Toscana Adventure</p>
+                      </div>
                     </div>
-                  </div>
-                </a>
-              </div>
-              <div class="blog-small-post">
-                <a href="#">
-                  <div class="d-flex align-items-center">
-                    <div class="blog-small-post__image-holder">
-                      <img class="blog-small-post__image" src="images/small-post02.png" alt="small opst image">
+                  </a>
+                </div>
+                <div class="blog-small-post col-sm-6 col-lg-12">
+                  <a href="#">
+                    <div class="d-flex align-items-center">
+                      <div class="blog-small-post__image-holder">
+                        <img class="blog-small-post__image" src="images/small-post03.png" alt="small opst image">
+                      </div>
+                      <div>
+                        <h5 class="subtitle subtitle--orange mb-1">June 25, 2020</h5>
+                        <p class="blog-small-post__title">Best Cheap Champagne</p>
+                      </div>
                     </div>
-                    <div>
-                      <h5 class="subtitle subtitle--orange mb-1">June 25, 2020</h5>
-                      <p class="blog-small-post__title">Toscana Adventure</p>
+                  </a>
+                </div>
+                <div class="blog-small-post col-sm-6 col-lg-12">
+                  <a href="#">
+                    <div class="d-flex align-items-center">
+                      <div class="blog-small-post__image-holder">
+                        <img class="blog-small-post__image" src="images/small-post04.png" alt="small opst image">
+                      </div>
+                      <div>
+                        <h5 class="subtitle subtitle--orange mb-1">June 25, 2020</h5>
+                        <p class="blog-small-post__title">Top Rated Wines</p>
+                      </div>
                     </div>
-                  </div>
-                </a>
-              </div>
-              <div class="blog-small-post">
-                <a href="#">
-                  <div class="d-flex align-items-center">
-                    <div class="blog-small-post__image-holder">
-                      <img class="blog-small-post__image" src="images/small-post03.png" alt="small opst image">
-                    </div>
-                    <div>
-                      <h5 class="subtitle subtitle--orange mb-1">June 25, 2020</h5>
-                      <p class="blog-small-post__title">Best Cheap Champagne</p>
-                    </div>
-                  </div>
-                </a>
-              </div>
-              <div class="blog-small-post">
-                <a href="#">
-                  <div class="d-flex align-items-center">
-                    <div class="blog-small-post__image-holder">
-                      <img class="blog-small-post__image" src="images/small-post04.png" alt="small opst image">
-                    </div>
-                    <div>
-                      <h5 class="subtitle subtitle--orange mb-1">June 25, 2020</h5>
-                      <p class="blog-small-post__title">Top Rated Wines</p>
-                    </div>
-                  </div>
-                </a>
+                  </a>
+                </div>
               </div>
             </div>
 
@@ -260,11 +262,11 @@
     <div class="footer">
       <div class="container">
         <div class="row">
-          <div class="footer__aside col-sm-12 col-md-3">
+          <div class="footer__aside col-12 col-lg-3">
             <p class="footer__text">reservations@barrique.com,</p>
             <p class="footer__text">office@barrique.com</p>
           </div>
-          <div class="col-sm-12 col-md-6 text-center">
+          <div class="col-12 col-lg-6 mx-auto my-4 text-center">
             <div class="footer__logo-holder">
               <a href="#">
                 <img src="images/footer-logo.png" alt="">
@@ -283,7 +285,7 @@
               <a class="footer__socials-icon" href="#"><img src="images/footer-tw.png" alt="twitter"></a>
             </div>
           </div>
-          <div class="footer__aside col-sm-12 col-md-3">
+          <div class="footer__aside col-12 col-lg-3">
             <p class="footer__text">41 Green Ave 10013 New York,</p>
             <p class="footer__text">504-349501, 910-320211</p>
           </div>

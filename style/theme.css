@@ -138,15 +138,57 @@ p {
   line-height: 70px;
 }
 
+@media screen and (max-width: 768px) {
+  .title--heading {
+    font-size: 40px;
+    line-height: 45px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .title--heading {
+    font-size: 32px;
+    line-height: 36px;
+  }
+}
+
 .title--main {
   font-size: 55px;
   line-height: 66px;
+}
+
+@media screen and (max-width: 768px) {
+  .title--main {
+    font-size: 35px;
+    line-height: 40px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .title--main {
+    font-size: 28px;
+    line-height: 32px;
+  }
 }
 
 .title--section {
   font-size: 45px;
   line-height: 55px;
   letter-spacing: 3px;
+}
+
+@media screen and (max-width: 768px) {
+  .title--section {
+    font-size: 30px;
+    line-height: 34px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .title--section {
+    font-size: 26px;
+    line-height: 32px;
+  }
 }
 
 .title--card {
@@ -284,6 +326,12 @@ p {
   word-break: normal;
 }
 
+@media screen and (max-width: 414px) {
+  .working-hours__dayname {
+    font-size: 18px;
+  }
+}
+
 .working-hours__time {
   font-family: 'Catamaran', sans-serif;
   font-style: italic;
@@ -291,6 +339,12 @@ p {
   font-size: 20px;
   min-width: 105px;
   text-align: right;
+}
+
+@media screen and (max-width: 414px) {
+  .working-hours__time {
+    font-size: 18px;
+  }
 }
 
 .working-hours__time.closed {
