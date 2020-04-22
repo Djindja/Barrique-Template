@@ -278,6 +278,14 @@ p {
   text-transform: uppercase;
 }
 
+@media screen and (max-width: 768px) {
+  .product__info-name {
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 1px;
+  }
+}
+
 .product__info-price-holder {
   display: flex;
   justify-content: center;
@@ -514,6 +522,17 @@ li.blog__categories-list-item > p {
 
 .shop-small .product__info-name {
   text-transform: uppercase;
+}
+
+@media screen and (max-width: 768px) {
+  .shop-small__title {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .shop-small__item-price {
+    font-size: 16px;
+    line-height: 18px;
+  }
 }
 
 @media screen and (max-width: 576px) {
