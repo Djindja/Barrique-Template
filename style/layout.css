@@ -1160,3 +1160,9 @@ ul.shop-cart__total-items-list li:last-child {
 .shop-single__quantity-holder {
   display: flex;
 }
+
+@media screen and (max-width: 768px) {
+  .shop-single {
+    padding: 20px 0;
+  }
+}

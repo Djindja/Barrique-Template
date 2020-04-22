@@ -751,6 +751,21 @@ li.tabs__tab.active .tab__txt {
   padding-right: 70px;
 }
 
+@media screen and (max-width: 576px) {
+  .tabs-box__tabs {
+    display: flex;
+    flex-direction: column;
+  }
+  li.tabs__tab.active {
+    border-bottom: none;
+  }
+  li.tabs__tab {
+    margin-right: 0;
+  }
+  .tabs-box {
+    padding-right: 0;
+  }
+}
 
 
 /* PRICE RANGE SLIDER */
