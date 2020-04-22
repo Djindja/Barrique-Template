@@ -54,7 +54,7 @@
   font-size: 12px;
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 576px) {
   .button--default {
     max-width: 170px;
     height: 50px;
