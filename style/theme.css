@@ -198,6 +198,13 @@ p {
   font-weight: 600;
 }
 
+@media screen and (max-width: 414px) {
+  .title--card {
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+
 .subtitle {
   font-family: 'Catamaran', sans-serif;
   font-weight: bold;
@@ -509,6 +516,20 @@ li.blog__categories-list-item > p {
   text-transform: uppercase;
 }
 
+@media screen and (max-width: 576px) {
+  .blog-single__comment-author {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .blog-single__comment-time {
+    font-size: 10px;
+    line-height: 14px;
+  }
+  .blog-single__comment-box p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
 
 /* CART TABLE */
 

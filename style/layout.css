@@ -774,12 +774,44 @@ ul.navigation {
   height: 125px;
 }
 
+
 .blog-single__comment-image {
-  width: 100%;
+  width: auto;
   height: 100%;
   object-fit: cover;
 }
 
+@media screen and (max-width: 768px) {
+  .blog-single__comment-image-holder {
+    margin-right: 25px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .blog-single__tab {
+    flex-direction: column;
+    align-items: start;
+    padding: 10px 5px;
+  }
+  .blog-single__comment-box {
+    padding: 10px;
+  }
+  .blog-single__comment-image-holder {
+    margin-right: 15px;
+    width: 80px;
+    height: 80px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .blog-single__comment-box {
+    flex-direction: column;
+  }
+  .blog-single__comment-image-holder {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
 
 
 /* CONTACT PAGE */
