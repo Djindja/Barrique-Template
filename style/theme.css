@@ -661,10 +661,19 @@ li.blog__categories-list-item > p {
 }
 
 .shop-list__sort-select {
-  height: 55px;
+  height: 50px;
   width: 240px;
   background: #c74817;
   color: #fff;
+  padding: 5px 15px;
+}
+
+@media screen and (max-width: 576px) {
+  .shop-list__sort-select {
+    width: 180px;
+    height: 40px;
+    font-size: 14px;
+  }
 }
 
 .checkout-form__title {

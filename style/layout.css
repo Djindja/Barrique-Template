@@ -1078,6 +1078,12 @@ ul.navigation {
   justify-content: space-between;
 }
 
+@media screen and (max-width: 576px) {
+  .checkout-notification p {
+    line-height: 19px;
+  }
+}
+
 .checkout-form .form-group {
   margin-bottom: 30px;
 }
@@ -1128,6 +1134,17 @@ ul.shop-cart__total-items-list li:last-child {
   justify-content: space-between;
 }
 
+@media screen and (max-width: 768px) {
+  .shop-list {
+    padding: 50px 0 10px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .shop-list__sort-holder p {
+    line-height: 20px;
+  }
+}
 
 /* SHOP SINGLE PAGE */
 
