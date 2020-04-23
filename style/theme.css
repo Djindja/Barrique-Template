@@ -685,6 +685,21 @@ li.blog__categories-list-item > p {
   letter-spacing: 2px;
 }
 
+@media screen and (max-width: 1024px) {
+  .checkout-form__title {
+    font-size: 26px;
+    line-height: 32px;
+    letter-spacing: 1px
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .checkout-form__title {
+    font-size: 22px;
+    line-height: 28px;
+  }
+}
+
 .input-label {
   color: #262524;
   font-family: 'Catamaran', sans-serif;
@@ -701,6 +716,7 @@ li.blog__categories-list-item > p {
 
 .checkout-policy {
   font-size: 13px;
+  line-height: 17px;
   padding: 20px 0;
   color: #a9a9a9;
 }
