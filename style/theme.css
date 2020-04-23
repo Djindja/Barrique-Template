@@ -580,6 +580,7 @@ li.blog__categories-list-item > p {
 
 .cart-table__remove {
   cursor: pointer;
+  margin-right: 7px;
 }
 
 .cart-table__price {
@@ -616,6 +617,44 @@ li.blog__categories-list-item > p {
 .cart-table__quantity-arrow {
   cursor: pointer;
   font-size: 1.5em;
+}
+
+@media screen and (max-width: 1024px) {
+  .cart-table__heading {
+    padding: 10px;
+  }
+  .cart-table__data {
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cart-table__heading {
+    padding: 5px;
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .cart-table__data {
+    padding: 5px;
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .cart-table__data p {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .cart-table__quantity-text {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .cart-table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
 }
 
 /* shop-single page*/
