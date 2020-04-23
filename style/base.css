@@ -20,13 +20,6 @@ html {
 /* Sections
    ========================================================================== */
 
-/**
- * Remove the margin in all browsers.
- */
-
-body {
-  margin: 0;
-}
 
 /**
  * Render the `main` element consistently in IE.
@@ -419,37 +412,13 @@ button {
   box-sizing: border-box;
 }
 
-body {
-  background-color: #faf9f5;
-}
-
 a:hover {
   text-decoration: none;
   color: inherit;
 }
 
-p {
-  font-family: 'Catamaran', sans-serif;
-  font-size: 17px;
-  line-height: 30px;
-  font-weight: 400;
-}
-
 select, option {
   text-transform: capitalize;
-}
-
-input,
-textarea,
-select {
-  background: #fff;
-  border: 1px solid #eeeae3;
-  padding: 15px;
-  width: 100%;
-}
-
-input:focus, textarea:focus {
-  border: 1px solid #f46150;
 }
 
 input {
